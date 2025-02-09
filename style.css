@@ -82,4 +82,7 @@ ul li i:hover {
     width: 130px;
     height: 40px;
     background-color: rgb(4, 140, 140);
+    border: none;
+    font-size: 20px;
+    color: white;
 }
