@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eeee;
+    text-transform: capitalize;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(182, 172, 172);
+}
+
+nav .logo {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+ul {
+    margin-right: 40px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    margin-inline: 20px;
+    font-size: 20px;
+}
+
+ul li i {
+    font-size: 20px;
+}
+
+ul li #home {
+    color: rgb(5, 167, 167)
+}
+
+ul li a:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ul li i:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .mainText {
+    margin-top: 100px;
+}
+
+.mainText h1{
+    font-size: 45px;
+    /* text-transform: capitalize; */
+    /* color: rgb(4, 138, 138); */
+}
+
+.mainText .top{
+    color: rgb(4, 138, 138);
+    /* text-transform: capitalize; */
+}
+
+.main img {
+    margin-top: 75px;
+}
+
+.mainText button {
+    width: 130px;
+    height: 40px;
+    background-color: rgb(4, 140, 140);
+}
