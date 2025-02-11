@@ -18,11 +18,11 @@
         </div>
         <ul>
           <li>
-            <a id="home">Home</a>
-            <a>Shops</a>
-            <a>Blog</a>
-            <a>About</a>
-            <a>Contact</a>
+            <a id="home" onclick="homes()">Home</a>
+            <a id="shop" onclick="shops()">Shops</a>
+            <a id="blog" onclick="blogs()">Blog</a>
+            <a id="about" onclick="abouts()">About</a>
+            <a id="contact" onclick="contacts()">Contact</a>
             <i class="fa-solid fa-cart-shopping"></i>
           </li>
         </ul>
@@ -49,7 +49,7 @@
 
         <div class="card">
           <div class="crd">
-            <img src="trnd1.jpg" alt="" />
+            <img src="trnd1.jpg" alt="" onclick="show(this)"/>
             <div class="crdText">
               <h2>Cotton trending Shirt's</h2>
               <i class="fa-solid fa-star"></i>
@@ -62,7 +62,7 @@
           </div>
 
           <div class="crd">
-            <img src="trnd22.jpg" alt="" />
+            <img src="trnd22.jpg" alt="" onclick="show(this)"/>
             <div class="crdText">
               <h2>Cotton trending Shirt's</h2>
               <i class="fa-solid fa-star"></i>
@@ -75,7 +75,7 @@
           </div>
 
           <div class="crd">
-            <img src="trnd3.jpg" alt="" />
+            <img src="trnd3.jpg" alt="" onclick="show(this)"/>
             <div class="crdText">
               <h2>Cotton trending Shirt's</h2>
               <i class="fa-solid fa-star"></i>
@@ -91,13 +91,13 @@
 
       <!-- women Cart -->
 
-      <div class="trend">
+      <div class="trend" id="trendSecond">
         <div class="head">
           <h1>Trends <span>Women's Wear</span></h1>
         </div>
         <div class="card">
           <div class="crd">
-            <img src="tops.jpg" alt="" />
+            <img src="tops.jpg" alt="" onclick="show(this)"/>
             <div class="crdText">
             <h2>trending girls Top's</h2>
             <i class="fa-solid fa-star"></i>
@@ -110,7 +110,7 @@
         </div>
 
           <div class="crd">
-            <img src="tope.jpg" alt="" />
+            <img src="tope.jpg" alt="" onclick="show(this)"/>
             <div class="crdText">
             <h2>trending girls Top's</h2>
             <i class="fa-solid fa-star"></i>
@@ -123,8 +123,8 @@
         </div>
 
           <div class="crd">
-            <img src="top3.png" alt="" />
-            .crdText
+            <img src="top3.png" alt="" onclick="show(this)"/>
+            <div class="crdText">
             <h2>trending girls Top's</h2>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -136,6 +136,79 @@
         </div>
       </div>
     </div>
+
+
+     <!-- about us -->
+
+      <div class="about">
+        <div class="aboutus">
+          <h1>#knowus</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="me">
+          <img src="lap.jpg" alt="">
+          <div class="aboutText">
+            <h1>who we are ?</h1>
+            <p> I’m Hamza, a university student passionate about technology and learning.
+              Education  Currently pursuing higher education while building practical skills.
+              Projects Showcasing my work in web development, coding, and more.
+              Skills Proficient in programming, and HVACR technical knowledge.
+              Blog Sharing insights, tutorials, and experiences.
+              Portfolio A collection of my latest projects and achievements.
+              Services Offering web development and technical solutions.
+              Contact Me Reach out via email or social media for collaboration.
+              Mission To learn, innovate, and create impactful digital experiences?</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact -->
+
+      <div class="contact">
+        <div class="contactus">
+          <h1>#let's connect</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contactMe">
+          <div class="contactText">
+            <h1>visit our office or contact <br> 
+              us today</h1>
+            <p>Address : Islamabad Pakistan</p>
+            <p>contact : abc@gmail.com</p>
+            <p>number : +92 0000000000</p>
+          </div>
+          <img src="map.jpg" alt="">
+        </div>
+        <div class="form">
+          <h1>connect with us. fill form</h1>
+          <input type="text" placeholder="Enter your firstname"> <br>
+          <input type="text" placeholder="Enter your lastname"> <br>
+          <input type="text" placeholder="Enter your email"> <br>
+          <input type="text" placeholder="Enter your numbar"> <br>
+          <input type="text" placeholder="Enter your address"> <br>
+          <button>submit</button>
+        </div>
+      </div>
+
+      <!-- cart -->
+
+        <div class="cart">
+          <img id="newImg" src="" alt="">
+          <div class="cartText">
+            <h1>trend offer : trending shop <br>
+            now</h1>
+            <h2>special price</h2>
+            <h2>$10</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <div class="btn">
+                <button>buy now</button>
+              <button onclick="AddCart()">add to cart</button>
+              </div>
+              <button class="back">back</button>
+          </div>
+        </div>
 
       <!-- Blog -->
 
@@ -169,7 +242,9 @@
           </div>
         </div>
       </div>
+
       <!-- letter -->
+
       <div class="letter">
         <div class="letterText">
           <h1>Sign up for newsLetter</h1>

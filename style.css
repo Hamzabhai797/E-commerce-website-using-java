@@ -80,6 +80,12 @@ ul li i:hover {
     height: 300px;
 }
 
+.main img:hover {
+    transition: 1s ease;
+    width: 300px;
+    height: 330px;
+}
+
 .mainText button {
     width: 130px;
     height: 40px;
@@ -149,6 +155,144 @@ ul li i:hover {
     color: rgb(255, 149, 0);
 }
 
+.about {
+    display: none;
+}
+
+.aboutus {
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 30px;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+.me p {
+    margin-left: 5%;
+}
+
+.me h1 {
+    margin-left: 5%;
+}
+
+.me img {
+    width: 45%;
+}
+
+.contact {
+    display: none;
+}
+
+.contactus {
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    background-color: #fff;
+    margin-left: 12%;
+}
+
+.contactMe img {
+    width: 55%;
+}
+
+.contactText {
+    padding: 20px;
+    width: 450px;
+}
+
+.contactText p {
+    margin-top: 15px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 5%;
+    padding: 15px;
+}
+
+.form input {
+    width: 300px;
+    height: 25px;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.form button {
+    width: 300px;
+    height: 35px;
+    /* padding: 8px; */
+    color: white;
+    font-size: 20px;
+    background-color: rgb(2, 54, 54);
+    border: none;
+    margin-top: 20px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.cart #newImg {
+    height: 450px;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.cartText {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cartText p {
+    margin-top: 10px;
+}
+
+.cartText h2 {
+    margin-top: 10px;
+}
+
+.cartText .btn button{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-inline: 10px;
+    text-transform: capitalize;
+}
+
+.cartText .back {
+    width: 120px;
+    height: 35px;
+    background-color: rgb(4, 81, 81);
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-inline: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
 .blog {
     display: flex;
     justify-content: center;
@@ -214,4 +358,18 @@ ul li i:hover {
     background-color: rgb(2, 173, 173);
     color: white;
     border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer .footerText {
+    margin-inline: 85px;
+}
+
+.footerText p {
+    margin-top: 15px;
 }
